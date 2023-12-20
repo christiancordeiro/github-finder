@@ -85,6 +85,7 @@ button {
   padding: 1rem;
   background-color: var(--primary);
   color: var(--white);
+  cursor: pointer;
 }
 
 button:hover {
