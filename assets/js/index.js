@@ -6,7 +6,7 @@ const USER = {
   public_repos: Number,
   followers: Number,
   following: Number,
-  repos: Array,
+  repos: [],
 }
 
 const QUERY = document.querySelector(".query")
