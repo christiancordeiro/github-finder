@@ -25,4 +25,4 @@ O desafio foi criar uma aplicação com a própria API do Github. Com o intuito 
 - API do Github.
 
 ## Links
-URL do site ao vivo: christiancordeiro.github.io/github-finder
+URL do site ao vivo: https://christiancordeiro.github.io/github-finder/
