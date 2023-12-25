@@ -12,8 +12,6 @@ const USER = {
 const QUERY = document.querySelector(".query")
 
 async function getUser() {
-  getRepos()
-
   const URL = `https://api.github.com/users/${QUERY.value}`
   const DATA = await fetch(URL)
   const USER_DATA = await DATA.json()
@@ -30,6 +28,7 @@ async function getUser() {
     USER.followers = USER_DATA.followers
     USER.following = USER_DATA.following
 
+    await getRepos()
     getAllData()
   }
 }
